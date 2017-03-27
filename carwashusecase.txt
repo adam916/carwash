@@ -1,0 +1,23 @@
+Choose wash:
+primary actor: customer..
+main sucess scenario:
+-the customer inserts card in machine
+-customer then chooses the desired wash - if there is coverage on the card the request goes through.
+- the price is deducted from the customers washcard.
+
+Refill card:
+primary actor: customer..
+main sucess scenario:
+-customer inserts washcard into machine and gets the option to see the amount left on the washcard.
+-customer inserts creditcard and washcard into the machine and chooses the amount to recharge (up to 1000kr )
+
+print reciept:
+primary actor: customer
+main sucess scenario:
+-after purchasing a wash customer is asked if a reciept is wanted,
+if yes, reciept is printed no, its not.
+
+Wash statistics:
+primary actor: Owner
+- owner logs into the system 
+- owner see statistics over the the amount of sold  wash types 
